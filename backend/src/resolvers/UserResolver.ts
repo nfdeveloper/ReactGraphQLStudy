@@ -7,7 +7,7 @@ export class UserResolve{
     private data : User[]= [];
 
     @Query(() => [User])
-    async hello(){
+    async users(){
         return this.data;
     }
 
